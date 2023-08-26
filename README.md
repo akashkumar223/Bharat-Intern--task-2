@@ -1,1 +1,37 @@
 # Bharat-Intern--task-2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature converter</title>
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Temprature Converter</h1>
+            <span class="temprature-icon"><i class="fa-solid fa-temperature-full"></i></span>
+        </div>
+        <div class="celcius">
+            <input type="number" name="" placeholder="celcius">
+            <span class="icon">&#8451</span>
+        </div>
+        <div class="Fahrenheit">
+            <input type="number" name="" placeholder="Fahrenheit">
+            <span class="icon">&#8457</span>
+        </div>
+        <div class="Kelvin">
+            <input type="number" name="" placeholder="Kelvin">
+            <span class="icon">&#8490</span>
+        </div>
+        <div class="button">
+            <button>All Clear</button>
+        </div>
+    </div>
+    <script src="practice.js"></script>
+</body>
+</html>
